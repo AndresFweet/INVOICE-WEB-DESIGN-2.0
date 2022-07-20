@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVOICE-WEB || INICIO</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="container__menu">
+            <div class="logo">
+                <img src="images/icon-web.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" id="selected">Inicio</a></li>
+                        <li><button type="button" class="open-modal" data-open="modal1">Ingresar</button></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container_cover">
+            <div class="cover">
+                <div class="text">
+                    <h1>INVOICE-WEB</h1>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sint vero tenetur rerum! Libero doloremque quod minus alias voluptate nostrum, quas necessitatibus sunt maxime labore!</p>
+
+                    <input type="button" value="Leer mas">
+                </div>
+                <div class="svg">
+                    <img src="images/cover_5.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal11">
+            <button class="close-modal" aria-label="close modal" data-close>✕</button>
+            <h2>INICIO DE SESSION</h2>
+            <form action="">
+            <div class="text_field">
+                <input name="email" type="text" required>
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="text_field">
+                <input name="password" type="password" required>
+                <span></span>
+                <label>Contraseña</label>
+            </div>
+            <input type="submit" value="Login">
+            </form>
+        </div>
+
+
+        <section class="about container" id="services">
+            <div class="about__texts">
+                <h2 class="subtitle">Nuestros servicios </h2>
+                <p class="about__copy">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatum quibusdam adipisci, cum dolor debitis repudiandae quae recusandae nesciunt ea quisquam tenetur voluptas sit optio quam provident molestiae! Deleniti, itaque delectus quidem voluptatum vitae ducimus ipsam facere reiciendis perferendis quod minima nihil sequi nostrum id repudiandae enim nobis porro nulla!
+                </p>
+            </div>
+            <figure class="about__img">
+                    <img src="images/cover_4.svg" class="about__picture">
+            </figure>
+            <figure class="about__img about__img--left">
+                    <img src="images/dev.svg" class="about__picture">
+            </figure>
+            <div class="about__texts">
+                <h2 class="subtitle">Sobre mi trabajo</h2>
+                <p class="about__copy"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iste nostrum nesciunt exercitationem quam voluptatum dicta corrupti alias natus nisi, aperiam ad sapiente? Tempora adipisci dignissimos blanditiis esse, id odio!</p>
+                <p class="about__copy"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iste nostrum nesciunt exercitationem quam voluptatum dicta corrupti alias natus nisi, aperiam ad sapiente? Tempora adipisci dignissimos blanditiis esse, id odio!</p>
+            </div>
+        </section>
+
+        <section class="cards">
+            <h1 class="subtitle center">Elije tu subscripcion</h1>
+            <div class="container-box">
+                <div class="box">
+                    <img src="images/cover.svg" alt="">
+                    <h2>Subscrion basica</h2>
+                    <div class="paragrahm">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique fugiat nostrum debitis quia minima nesciunt ullam delectus nihil commodi.</p>
+                    </div>
+                    <div class="check">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/cover_2.svg" alt="">
+                    <h2>Subscrion cover</h2>
+                    <div class="paragrahm">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique fugiat nostrum debitis quia minima nesciunt ullam delectus nihil commodi.</p>
+                    </div>
+                    <div class="check">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/cover_6.svg" alt="">
+                    <h2>Subscrion premium</h2>
+                    <div class="paragrahm">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique fugiat nostrum debitis quia minima nesciunt ullam delectus nihil commodi.</p>
+                    </div>
+                    <div class="check">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+        <div class="container footer__grid">
+            <nav class="nav nav--footer">
+                <a class="nav__items nav__items--footer" href="">Inicio</a>
+                <a class="nav__items nav__items--footer" href="">Sobre mi</a>
+                <a class="nav__items nav__items--footer" href="">Mis skills</a>
+                <a class="nav__items nav__items--footer" href="">Proyectos</a>
+            </nav>
+            <section class="footer__contact">
+                <h3 class="footer__title">Contactanos</h3>
+                <div class="footer__icons">
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-facebook-f footer__icon"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-whatsapp footer__icon"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a href="#" class="fab fa-twitter footer__icon"></a>
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+                
+
+    </main>
+    <script src="js/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</body>
+</html>
